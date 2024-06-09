@@ -2,7 +2,7 @@
 <p align="center">Quick Notes.</p>
 
 <p align="center">
-  ![image](https://github.com/puni9869/blabla-page/assets/80308335/198f1743-cb39-4e3b-9308-d1945ff6b7f8)
+  <img src="https://github.com/puni9869/blabla-page/assets/80308335/198f1743-cb39-4e3b-9308-d1945ff6b7f8"/>
 </p>
 
 
