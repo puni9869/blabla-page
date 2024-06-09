@@ -7,7 +7,6 @@
     "build": "vite build",
     "serve": "vite preview"
   },
-  "homepage": "http://puni9869.github.io/mark",
   "license": "MIT",
   "dependencies": {
     "codejar": "^4.2.0",
