@@ -1,6 +1,6 @@
 <h1 align="center">blabla.page</h1>
 <p align="center">Quick Notes.</p>
-![alt text](./image.png)
+![blabla.page](./image.png)
 
 [![](https://img.shields.io/badge/license-mit-black?style=for-the-badge)](LICENSE)
 
