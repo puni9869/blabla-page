@@ -1,10 +1,11 @@
 <h1 align="center">blabla.page</h1>
 <p align="center">Quick Notes.</p>
+![alt text](image.png)
 
 [![](https://img.shields.io/badge/license-mit-black?style=for-the-badge)](LICENSE)
 
 ## Motivation
-I was searching for online tool which is easy to use and the name should be simple. This is a personalize fork of [Mark](https://github.com/barelyhuman/mark)
+I was searching for online tool which is easy to use and the name should be simple. This is a personalize fork of [Mark](https://github.com/barelyhuman/mark).
 
 **Prerequisite**
 1. [Node](https://nodejs.org/en/) at least v12 
@@ -32,4 +33,5 @@ python –m SimpleHTTPServer dist
 
 ## License
 [MIT](LICENSE) &copy; Reaper (Original)
+
 [MIT](LICENSE) &copy; blabla.page (After Fork)
