@@ -1,21 +1,10 @@
-<h1 align="center">Mark</h1>
-<p align="center">Web Markdown Editor</p>
+<h1 align="center">blabla.page</h1>
+<p align="center">Quick Notes.</p>
 
 [![](https://img.shields.io/badge/license-mit-black?style=for-the-badge)](LICENSE)
 
 ## Motivation
-
-Simple Markdown editor built with syntax highlighting and an optional preview that I mostly use for my work. I don't like the apps that exist and are mostly pretty memory heavy, on the other hand the web app is pretty simple and suffices most of what I use Markdown for
-
-## Features
-
-- System Controlled Dark Mode
-- Export the raw .md file
-- Optional Preview
-
-## Development / Self Hosting 
-
-The app is a straightforward vuejs app and just a client sided one. You can set it up using the following steps. 
+I was searching for online tool which is easy to use and the name should be simple. This is a personalize fork of [Mark](https://github.com/barelyhuman/mark)
 
 **Prerequisite**
 1. [Node](https://nodejs.org/en/) at least v12 
@@ -41,11 +30,6 @@ npx serve dist
 python –m SimpleHTTPServer dist
 ```
 
-
-## Contribute
-
-The easiest way to contribute is to fork the project and raise PR's. Though, do inform the mainter as to what issue you pick up to avoid overlaps
-
 ## License
-
-[MIT](LICENSE) &copy; Reaper
+[MIT](LICENSE) &copy; Reaper (Original)
+[MIT](LICENSE) &copy; blabla.page (After Fork)
