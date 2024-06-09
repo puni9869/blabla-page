@@ -1,6 +1,7 @@
 <h1 align="center">blabla.page</h1>
 <p align="center">Quick Notes.</p>
-![blabla.page](./image.png)
+![image](https://github.com/puni9869/blabla-page/assets/80308335/198f1743-cb39-4e3b-9308-d1945ff6b7f8)
+
 
 [![](https://img.shields.io/badge/license-mit-black?style=for-the-badge)](LICENSE)
 
