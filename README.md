@@ -15,7 +15,7 @@ I was searching for online tool which is easy to use and the name should be simp
 **Steps**
 ```sh
 # clone this repo 
-git clone https://github.com/barelyhuman/mark
+git clone https://github.com/puni9869/blabla-page
 
 # cd into it and install the basic dependencies
 npm i 

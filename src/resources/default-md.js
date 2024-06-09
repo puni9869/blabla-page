@@ -1,1 +1,3 @@
-export const defaultMarkdownText = `### Write from here`;
+export const defaultMarkdownText = `### Hi there, you can start writing from here
+
+`;

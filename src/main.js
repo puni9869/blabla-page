@@ -4,8 +4,6 @@ import "./styles/index.css";
 
 const routes = {
   "/": Home,
-  // TODO: add a settings page
-  // "/settings": Home,
 };
 
 const SimpleRouter = {
