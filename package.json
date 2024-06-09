@@ -19,7 +19,7 @@
     "quill": "^2.0.0",
     "quill-delta-to-markdown": "^0.6.0",
     "quilljs-markdown": "^1.2.0",
-    "vue": "^3.4.24"
+    "vue": "^3.4.27"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

@@ -10,7 +10,7 @@ const routes = {
 
 const SimpleRouter = {
   data: () => ({
-    currentRoute: window.location.pathname,
+    currentRoute: '/',
   }),
 
   computed: {
