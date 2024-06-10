@@ -1,10 +1,17 @@
 <template>
-  <div class="container">
-    <Button @click="state.dropdownOpen = !state.dropdownOpen" class="ghost trigger">
+  <div class="flex container">
+    <Button
+      @click="state.dropdownOpen = !state.dropdownOpen"
+      class="ghost trigger"
+    >
       {{ triggerLabel }}
     </Button>
 
-    <div v-if="state.dropdownOpen" class="dropdown" @click="state.dropdownOpen = false"></div>
+    <div
+      v-if="state.dropdownOpen"
+      class="dropdown"
+      @click="state.dropdownOpen = false"
+    ></div>
 
     <div v-if="state.dropdownOpen" class="dropdown-items">
       <slot></slot>
@@ -51,7 +58,17 @@ const state = reactive({ dropdownOpen: false });
   background: var(--overlay);
   color: var(--subtle);
   border-radius: 12px;
+  min-width: 350px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
   z-index: 20;
+}
+
+.flex .container {
+  width: 100%;
+}
+
+.flex .container > .ghost.trigger {
+  justify-content: left;
+  width: 100%;
 }
 </style>

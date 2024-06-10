@@ -23,7 +23,7 @@ defineProps({
   padding-top: 8px;
   padding-bottom: 8px;
   font-size: 12px;
-  text-transform: uppercase;
+  text-transform: none;
   color: var(--subtle);
 }
 

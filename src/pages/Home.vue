@@ -4,17 +4,17 @@
     <Editor v-on:change="handleChange" v-bind:initialCode="state.code"></Editor>
     <Toolbar>
       <Menu triggerLabel="Menu">
-        <MenuItem label="Copy as HTML" @click="handleCopyAsHTML" />
-        <MenuItem label="Save File" modifier="⌘ + s" @click="handleSaveFile" />
+        <MenuItem label="Copy as html" @click="handleCopyAsHTML" />
+        <MenuItem label="Save file" modifier="⌘ + s" @click="handleSaveFile" />
         <MenuItem
-          label="Save File as HTML"
+          label="Save file as html"
           modifier="⌘ + ⇧ + s "
           @click="handleSaveAsHTML"
         />
-        <MenuItem label="Save File as PDF" @click="handleSaveAsPDF" />
-        <MenuItem label="Save File as Image" @click="handleSaveAsImage" />
+        <MenuItem label="Save file as pdf" @click="handleSaveAsPDF" />
+        <MenuItem label="Save file as image" @click="handleSaveAsImage" />
       </Menu>
-      <div class="flex align-center">
+      <div class="flex align-center ml-auto">
         <Button
           class="trigger ghost"
           v-bind:class="{ active: state.copied }"
@@ -57,8 +57,6 @@
         </Button>
       </div>
     </Toolbar>
-    <!-- <Editor v-if="!state.showPreview" class="mt-1" v-on:change="handleChange" v-bind:code="state.code"></Editor>
-    <Preview v-if="state.showPreview" v-bind:code="marked(state.code)" /> -->
   </BaseLayout>
 </template>
 
@@ -69,7 +67,6 @@ import MenuItem from "../components/menu-item.vue";
 import Toolbar from "../components/toolbar.vue";
 import Editor from "../components/editor-rich.vue";
 import Button from "../components/button.vue";
-import Preview from "../components/preview.vue";
 import Toast from "../components/toast.vue";
 import { copy } from "../lib/copy";
 import { defaultMarkdownText } from "../resources/default-md";
