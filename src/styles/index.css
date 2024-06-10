@@ -13,16 +13,6 @@
   --toolbar-height: 42px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --base: #232b32;
-    --overlay: #20272d;
-    --surface: #1c2228;
-    --text: white;
-    --subtle: #e9eaeb;
-  }
-}
-
 * {
   box-sizing: border-box;
 }
