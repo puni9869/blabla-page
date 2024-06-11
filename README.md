@@ -8,6 +8,17 @@
 ## Motivation
 I was searching for online tool which is easy to use and the name should be simple. This is a personalize fork of [Mark](https://github.com/barelyhuman/mark).
 
+## Features coming soon...
+
+- [ ] Modify the menu items.
+- [ ] Redirect http[s]://blabla.page to https://www.blabla.page
+- [ ] Create a simple chrome extension.
+- [ ] Add `Clear` option in menu items.
+- [ ] Add `About` page in blabla.not
+- [ ] Show `History`.
+- [ ] Convert blabla.page to PWA.
+- [ ] Preview button on the top.
+
 **Prerequisite**
 1. [Node](https://nodejs.org/en/) at least v12 
 2. [git](https://git-scm.com/)
