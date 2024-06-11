@@ -4,15 +4,7 @@
     <Editor v-on:change="handleChange" v-bind:initialCode="state.code"></Editor>
     <Toolbar>
       <Menu triggerLabel="Menu">
-        <MenuItem label="Copy as html" @click="handleCopyAsHTML" />
-        <MenuItem label="Save file" modifier="⌘ + s" @click="handleSaveFile" />
-        <MenuItem
-          label="Save file as html"
-          modifier="⌘ + ⇧ + s "
-          @click="handleSaveAsHTML"
-        />
-        <MenuItem label="Save file as pdf" @click="handleSaveAsPDF" />
-        <MenuItem label="Save file as image" @click="handleSaveAsImage" />
+        <MenuItem label="Download " modifier="⌘ + S" @click="handleSaveFile" />
       </Menu>
       <div class="flex align-center ml-auto">
         <Button
@@ -123,23 +115,11 @@ async function handleCopyAsHTML() {
   if (!state.code) {
     return;
   }
-  const htmlValue = marked(state.code);
-  await copy(htmlValue);
+  await copy(state.code);
   state.copied = true;
   setTimeout(() => {
     state.copied = false;
   }, 2500);
-}
-
-function handleSaveAsHTML() {
-  const fileName = prompt("Name your file", "mark.html");
-  if (!fileName) {
-    return;
-  }
-  const file = createFile(marked(state.code));
-  const fileNameWithExt =
-    fileName.replace(/.html$/, "") + ".html" || "mark.html";
-  exportFile(fileNameWithExt, file);
 }
 
 function handleSaveFile() {
@@ -150,45 +130,6 @@ function handleSaveFile() {
   const file = createFile(state.code);
   const fileNameWithExt = fileName.replace(/.md$/, "") + ".md" || "mark.md";
   exportFile(fileNameWithExt, file);
-}
-
-async function handleSaveAsPDF() {
-  try {
-    let htmlString = marked(state.code);
-    htmlString += `<style>
-    ${getMDStyles()}
-    </style>`;
-    const options = {
-      margin: 0.25,
-      filename: "mark.pdf",
-      jsPDF: { unit: "in", format: "a4", orientation: "portrait" },
-    };
-
-    html2pdf().set(options).from(htmlString, "string").to("pdf").save();
-  } catch (err) {
-    console.error(err);
-  }
-}
-async function handleSaveAsImage() {
-  try {
-    setTimeout(() => {
-      toImage
-        .toBlob(document.querySelector(".ql-editor"), {
-          bgcolor: "var(--base)",
-          style: {
-            color: "var(--text)",
-          },
-        })
-        .then((blob) => {
-          download(blob, `mark.png`, "image/png");
-        })
-        .catch((err) => {
-          console.error(err);
-        });
-    }, 250);
-  } catch (err) {
-    console.error(err);
-  }
 }
 
 function createFile(data) {

@@ -57,8 +57,8 @@ const state = reactive({ dropdownOpen: false });
   width: 15em;
   background: var(--overlay);
   color: var(--subtle);
-  border-radius: 12px;
-  min-width: 350px;
+  border-radius: 8px;
+  min-width: 250px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
   z-index: 20;
 }
@@ -70,5 +70,6 @@ const state = reactive({ dropdownOpen: false });
 .flex .container > .ghost.trigger {
   justify-content: left;
   width: 100%;
+  margin-left: 4%;
 }
 </style>

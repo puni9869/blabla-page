@@ -34,7 +34,9 @@ defineProps({
 
 .item-content {
   display: flex;
+  font-size: small;
   justify-content: space-between;
+  align-items: center
 }
 
 .menu-modifier {
