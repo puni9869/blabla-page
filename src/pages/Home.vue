@@ -64,10 +64,7 @@ import { copy } from "../lib/copy";
 import { defaultMarkdownText } from "../resources/default-md";
 import { reactive, onMounted, ref, onUnmounted } from "vue";
 import marked from "../lib/marked";
-import html2pdf from "html2pdf.js";
 import getMDStyles from "../lib/get-md-styles";
-import toImage from "dom-to-image";
-import download from "downloadjs";
 
 const toastRef = ref(null);
 
