@@ -1,7 +1,7 @@
 <template>
   <div class="flex greetings">
     Enjoy the rest of your {{ day }}!
-    <a class="flex-1" href="https://github.com/puni9869/blabla-page">
+    <a target="_blank" class="flex-1" href="https://github.com/puni9869/blabla-page">
       <img alt="blabla.page" class="flex github" :src="getImageUrl()" />
     </a>
   </div>
