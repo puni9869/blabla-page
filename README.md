@@ -4,6 +4,7 @@
 
 
 [![](https://img.shields.io/badge/license-mit-black?style=for-the-badge)](LICENSE)
+[![Deploy static content to Pages](https://github.com/puni9869/blabla-page/actions/workflows/static.yml/badge.svg)](https://github.com/puni9869/blabla-page/actions/workflows/static.yml)
 
 ## Motivation
 I was searching for online tool which is easy to use and the name should be simple. This is a personalize fork of [Mark](https://github.com/barelyhuman/mark).
