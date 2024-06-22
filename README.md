@@ -14,7 +14,7 @@ I was searching for online tool which is easy to use and the name should be simp
 - [ ] Redirect http[s]://blabla.page to https://www.blabla.page
 - [ ] Create a simple chrome extension.
 - [ ] Add `Clear` option in menu items.
-- [ ] Add `About` page in blabla.not
+- [ ] Add `About` page in blabla.page
 - [ ] Show `History`.
 - [ ] Convert blabla.page to PWA.
 - [ ] Preview button on the top.
