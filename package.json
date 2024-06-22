@@ -10,16 +10,14 @@
   "license": "MIT",
   "dependencies": {
     "codejar": "^4.2.0",
-    "dom-to-image": "^2.6.0",
     "downloadjs": "^1.4.7",
     "highlight.js": "^11.9.0",
-    "html2pdf.js": "0.10.1",
     "marked": "^12.0.2",
     "md-to-quill-delta": "^1.1.1",
     "quill": "^2.0.0",
     "quill-delta-to-markdown": "^0.6.0",
     "quilljs-markdown": "^1.2.0",
-    "vue": "^3.4.24"
+    "vue": "^3.4.30"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
