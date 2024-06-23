@@ -63,11 +63,8 @@ import Toast from "../components/toast.vue";
 import { copy } from "../lib/copy";
 import { defaultMarkdownText } from "../resources/default-md";
 import { reactive, onMounted, ref, onUnmounted } from "vue";
-import marked from "../lib/marked";
-import getMDStyles from "../lib/get-md-styles";
 
 const toastRef = ref(null);
-
 const STORAGE_TOKEN = Symbol("reaper-mark").toString();
 
 const getDefaultCode = () => {
@@ -148,5 +145,3 @@ function exportFile(filename, file, generateDataURI = true) {
   document.body.removeChild(a);
 }
 </script>
-
-<style scoped></style>
