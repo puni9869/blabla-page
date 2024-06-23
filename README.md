@@ -2,23 +2,23 @@
   <img src="https://github.com/puni9869/blabla-page/assets/80308335/198f1743-cb39-4e3b-9308-d1945ff6b7f8"/>
 </p>
 
-
-[![](https://img.shields.io/badge/license-mit-black?style=for-the-badge)](LICENSE)
 [![Deploy static content to Pages](https://github.com/puni9869/blabla-page/actions/workflows/static.yml/badge.svg)](https://github.com/puni9869/blabla-page/actions/workflows/static.yml)
+---
 
 ## Motivation
 I was searching for online tool which is easy to use and the name should be simple. This is a personalize fork of [Mark](https://github.com/barelyhuman/mark).
 
 ## Features coming soon...
 
-- [ ] Modify the menu items.
-- [ ] Redirect http[s]://blabla.page to https://www.blabla.page
-- [ ] Create a simple chrome extension.
+- [x] Modify the menu items.
+- [x] Redirect http[s]://blabla.page to https://www.blabla.page
+- [x] Create a simple chrome extension.
+- [ ] Publish the chrome extension in chrome store.
 - [ ] Add `Clear` option in menu items.
 - [ ] Add `About` page in blabla.page
 - [ ] Show `History`.
 - [ ] Convert blabla.page to PWA.
-- [ ] Preview button on the top.
+- [ ] Preview button on the top. 🥉
 
 **Prerequisite**
 1. [Node](https://nodejs.org/en/) at least v12 
@@ -45,6 +45,8 @@ python –m SimpleHTTPServer dist
 ```
 
 ## License
+[![](https://img.shields.io/badge/license-mit-black?style=for-the-badge)](LICENSE)
+
 [MIT](LICENSE) &copy; Reaper (Original)
 
 [MIT](LICENSE) &copy; blabla.page (After Fork)
