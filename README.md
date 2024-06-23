@@ -45,8 +45,6 @@ python –m SimpleHTTPServer dist
 ```
 
 ## License
-[![](https://img.shields.io/badge/license-mit-black?style=for-the-badge)](LICENSE)
-
 [MIT](LICENSE) &copy; Reaper (Original)
 
 [MIT](LICENSE) &copy; blabla.page (After Fork)
