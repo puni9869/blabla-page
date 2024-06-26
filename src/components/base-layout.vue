@@ -5,7 +5,7 @@
     <a target="_blank" href="https://github.com/puni9869/blabla-page">
       <img title="github.com/puni9869/blabla-page" alt="blabla.page" class="flex icon" :src="getImageUrl('github_icon.ico')" />
     </a>
-    <a target="_blank" href="https://github.com/puni9869/blabla-page">
+    <a target="_blank" href="https://chromewebstore.google.com/detail/blabla-page/ojbjgngojefegmkmcckmjoibdbhmaibi">
       <img alt="Add to chrome"  title="Download the chrome extension" class="flex icon extension" :src="getImageUrl('chrome.png')" />
     </a>
   </span>
